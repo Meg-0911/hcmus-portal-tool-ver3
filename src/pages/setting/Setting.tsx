@@ -7,6 +7,7 @@ import { PrivacyFooter } from '../../components/PrivacyFooter';
 import { SettingUserProfile } from './SettingUserProfile';
 import { useStudentDb } from '../../hooks/useStudentDb';
 import { BookmarkletButton } from '../../components/BookmarkletButton';
+import { ImportData } from './importData';
 import { ReportError } from './reportError';
 
 export function Setting() {
@@ -45,6 +46,7 @@ export function Setting() {
                             <BookmarkletButton variant="outline" hideInstructions={true} />
                         </div>
 
+                        <ImportData />
 
                         <ReportError />
                     </div>
